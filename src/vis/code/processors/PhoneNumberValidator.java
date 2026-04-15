@@ -23,10 +23,7 @@ public class PhoneNumberValidator {
             return "PhoneNumber length should Not Be GreaterThan 15 digits";
         }
         
-//        if(number.startsWith("0")){
-//            number = number.substring(1);
-//            System.out.println("if 0 then after number:"+ number);
-//        }
+
         
         PhoneNumberFormats[] enumvalues = PhoneNumberFormats.values();
         System.out.println(enumvalues.toString());
@@ -91,7 +88,6 @@ public class PhoneNumberValidator {
             return countrycode + temp;
         }
 
-            
         }
         
         return "invalid Phonenumber format";
